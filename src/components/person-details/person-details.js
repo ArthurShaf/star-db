@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-import ErrorButton from '../error-button/error-button';
-import SwapiService from '../../services/swapi-service';
-
 import './person-details.css';
+import SwapiService from "../../services/swapi-service";
+import ErrorButton from "../error-button/error-button";
 
 export default class PersonDetails extends Component {
 
